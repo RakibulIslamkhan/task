@@ -1,0 +1,30 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 15rem;
+    padding-top: 1rem;
+    height: 400px;
+    background-color: #C4ADEB;
+}
+.about-content h2{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .about-container{
+        height: 100%;
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 0 1rem;
+        overflow: hidden;
+    }
+    .about-card{
+        margin: 0 auto;
+    }
+    .about-content h2{
+        font-size: 30px;
+    }
+}
